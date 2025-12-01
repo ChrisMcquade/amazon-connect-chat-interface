@@ -75,12 +75,12 @@ Object.keys(spacingValues).forEach(key => {
 // ---------
 
 const fonts = {
-  regular: `Arial, Helvetica, "sans-serif"`,
-  light: `Arial, Helvetica, "sans-serif"`,
-  medium: `Arial, Helvetica, "sans-serif"`,
-  thick: `Arial, Helvetica, "sans-serif"`,
-  bold: `Arial, Helvetica, "sans-serif"`,
-  heavy: `Arial, Helvetica, "sans-serif"`
+ regular: `"VMCircular", Arial, Helvetica, sans-serif`,
+  light: `"VMCircular", Arial, Helvetica, sans-serif`,
+  medium: `"VMCircular", Arial, Helvetica, sans-serif`,
+  thick: `"VMCircular", Arial, Helvetica, sans-serif`,
+  bold: `"VMCircular", Arial, Helvetica, sans-serif`,
+  heavy: `"VMCircular", Arial, Helvetica, sans-serif`
 }
 
 const fontsSize = {
@@ -103,10 +103,12 @@ const screen = {
     height: 460
   },
   medium: {
-    width: 740,
-    height: 760
+    width: 338,
+    height: 700
   }
 }
+
+
 
 
 const color = {
@@ -366,7 +368,7 @@ button: {
   listItem: {
     selectedBg: palette.brown,
     selectedColor: palette.white,
-    hoverBg: "#398ADA",
+    hoverBg: "#94a79dff",
     hoverColor: palette.white,
     height: "38px"
   },
