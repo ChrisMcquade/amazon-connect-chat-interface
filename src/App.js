@@ -8,6 +8,7 @@ import styled from "styled-components";
 import ChatContainer from "./components/Chat/ChatContainer";
 
 import defaultTheme from './theme/defaultTheme';
+import Fonts from './assets/fonts';
 
 
 const Page = styled.div`
@@ -30,6 +31,7 @@ const Page = styled.div`
 const AppProvider = props => {
   return (
     <ThemeProvider theme={Object.assign({}, defaultTheme, props.themeConfig)}>
+      <Fonts />
       {props.children}
     </ThemeProvider>
   );
